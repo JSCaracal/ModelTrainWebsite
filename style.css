@@ -41,6 +41,9 @@
     font-size: 2rem;
 }
 
+#train__grid{
+
+}
 
 .fa-gem{
     margin-right: 0.5rem;
@@ -97,4 +100,11 @@
 .navbar__links:hover{
     color:darkgreen;
     transition: all 0.4s ease;
+}
+
+.train__grid{
+    display: grid; grid-template-columns: auto auto auto;
+}
+div.cell{
+    background-color: lightblue;
 }
