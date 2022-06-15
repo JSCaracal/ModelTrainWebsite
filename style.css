@@ -41,9 +41,7 @@
     font-size: 2rem;
 }
 
-#train__grid{
 
-}
 
 .fa-gem{
     margin-right: 0.5rem;
@@ -102,9 +100,22 @@
     transition: all 0.4s ease;
 }
 
+#train__grid{
+    display: grid;
+    
+}
+
 .train__grid{
     display: grid; grid-template-columns: auto auto auto;
 }
 div.cell{
     background-color: lightblue;
+}
+
+.homepage__background{
+    height: 100%;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    background-image:url(images/background.jpg)
 }
