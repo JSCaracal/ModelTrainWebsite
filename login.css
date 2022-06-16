@@ -1,56 +1,63 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Times New Roman', Times;
-}
-
-.main__page{
-    height: 100%;
-    width: auto;
-    background-position: center;
-    background-size: cover;
-    background-image:url(images/background.jpg);
-}
-
-body{
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#6abadeba;  
+    font-family: 'Times New Roman';  
     background-image:linear-gradient(rgba(5,0,136,0.5),rgba(5,0,135,0.5)),url(images/background.jpg);
-    
-}
-
-.main__text{
-    margin-top: 10%;
-    margin-left: 25%;
-    
-}
-
-.main__text h1{
-    color: white;
-    font-size: 350%;
-    font-weight: 300;
-}
-
-.main__text p{
-    color: white;
-    font-size: large;
-}
-
-.animation{
-    animation: slideleft 1s linear forwards;
-}
-
-@keyframes slideleft{
-    0%{
-        transform: translate(100px);
-        transform: rotate(180deg);
-        opacity: 0%;
-    }
-    100%{
-        transform: translate(0px);
-        transform: rotate(0deg);
-        opacity: 100%;
-    }
-}
+}  
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #06382e;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    background-color: grey;  
+}  
 
 .navbar{
     background: #13131313;
@@ -148,28 +155,3 @@ body{
     color:darkgreen;
     transition: all 0.4s ease;
 }
-/* The Following code pertains to the Train.html styling*/
-
-#train__grid{
-    display: grid;
-    
-}
-
-.train__grid{
-    display: grid; grid-template-columns: auto auto auto;
-}
-div.cell{
-    background-color: lightblue;
-}
-
-/*The Following code pertains to the styling of releases.html*/
-#upcoming__grid{
-    display: grid;
-}
-.upcoming__grid{
-    display: grid; grid-template-columns: auto auto;
-}
-
-
-/*The Following code pertains to the styling of the login.html*/
-
