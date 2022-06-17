@@ -35,11 +35,49 @@ body{
     font-size: large;
 }
 
+.main__images{
+    margin-left: 25%;
+    margin-right: auto;
+    display: block;
+}
+
+.img1_animation{
+    animation: slideright 1.5s linear forwards;
+}
+
+.img2_animation{
+    animation: slideleft 1.5s linear forwards;
+}
+
 .animation{
-    animation: slideleft 1s linear forwards;
+    animation: slideleftflip 1s linear forwards;
+}
+
+@keyframes slideright {
+    0%{
+        transform: translate(-1000px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 100%;
+    }
 }
 
 @keyframes slideleft{
+    0%{
+        transform: translate(1000px);
+        opacity: 0%;
+
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 100%;
+    }
+}
+
+
+@keyframes slideleftflip{
     0%{
         transform: translate(100px);
         transform: rotate(180deg);

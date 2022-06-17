@@ -3,6 +3,7 @@
     <head>
         <title>Login into Josh's Model Train Emporium!</title>\
         <link rel="stylesheet" type="text/css" href="login.css"/>  
+        <script src ="loginVerification.js"></script>
     </head>
     <body>
         <nav class="navbar">
@@ -32,7 +33,7 @@
         </nav>
     </body>
     <body>
-        <h2>Login Home Page</h2>
+        <h2>Login to your account to continue</h2>
         <div class = "login">
             <form username = "username" method="get" action="login.php">
                 <label><b>
@@ -47,12 +48,12 @@
                 </label>
                 <input type="password" name = "pWord" id = "pWord" placeholder = "Password">
                 <br><br>    
-                <input type="button" name="log" id="log" value="Log In Here">       
+                <input type="button" name="log" id="log" value="Sign in" onclick="loginFunction()">       
                 <br><br>    
                  <input type="checkbox" id="check">    
                 <span>Remember me</span>    
                 <br><br>    
-                Forgot <a href="#">Password</a>   
+                 <a href="#">Forgot Password</a>   
             </form>
         </div>
     </body>
